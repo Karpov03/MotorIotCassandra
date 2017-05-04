@@ -6,7 +6,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication(scanBasePackages = { "com.megatech" })
-//@Import({ CassandraConfig.class })
 public class CassaTestApplication extends SpringBootServletInitializer {
 
 	@Override
